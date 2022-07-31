@@ -28,7 +28,7 @@ public class StudentController {
                 ),
                 new Student(
                         2L,
-                        "alex",
+                        "Alex",
                         "alex@tunjiTrain.edu",
                         Gender.MALE
                 )
