@@ -6,7 +6,11 @@ import React from 'react'
 import './App.css';
 import {useState, useEffect} from 'react';
 import {getAllStudents} from "./client";
-import {Breadcrumb, Layout, Menu} from 'antd';
+import {    Breadcrumb,
+            Layout,
+            Menu,
+            Table
+        } from 'antd';
 
 import {
     DesktopOutlined,
@@ -60,8 +64,14 @@ function App() {
 
     }, []);
 
-    if (students.length<=0) {
-        return "no data";
+    const renderStudents = () => {
+        if (students.length<=0) {
+            return "no data available";
+        }
+        return <Table
+            dataSource={students}
+            columns={columns} />;
+
     }
 
     return <Layout style={{ minHeight: '100vh' }}>
@@ -97,7 +107,7 @@ function App() {
                     <Breadcrumb.Item>Bill</Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="site-layout-background" style={{ padding: 24, minHeight: 360 }}>
-                    Bill is a cat.
+                    {renderStudents()}
                 </div>
             </Content>
             <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
