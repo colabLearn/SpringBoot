@@ -6,15 +6,17 @@ import React from 'react'
 import './App.css';
 import {useState, useEffect} from 'react';
 import {getAllStudents} from "./client";
-import {    Breadcrumb,
-            Layout,
-            Menu,
-            Table
-        } from 'antd';
+import {
+    Breadcrumb, Empty,
+    Layout,
+    Menu, Spin,
+    Table
+} from 'antd';
 
 import {
     DesktopOutlined,
     FileOutlined,
+    LoadingOutlined,
     PieChartOutlined,
     TeamOutlined,
     UserOutlined,
@@ -46,9 +48,11 @@ const columns = [
     },
 ];
 
+const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 function App() {
     const [students, setStudents] = useState([]);
     const [collapsed, setCollapsed] = useState(false);
+    const [fetching, setFetching] = useState(true);
 
     const fetchStudents = () =>
         getAllStudents()
@@ -56,6 +60,7 @@ function App() {
             .then(data => {
                 console.log(data);
                 setStudents(data);
+                setFetching(false);
             })
 
     useEffect(()=> {
@@ -65,12 +70,22 @@ function App() {
     }, []);
 
     const renderStudents = () => {
+        if(fetching) {
+            return <Spin indicator={antIcon}/>
+        }
         if (students.length<=0) {
-            return "no data available";
+            return <Empty />;
         }
         return <Table
             dataSource={students}
-            columns={columns} />;
+            columns={columns}
+            bordered
+            title={() => 'Students'}
+            pagination={{ pageSize: 50 }}
+            scroll={{ y: 240 }}
+            rowKey = {(student) => student.id}
+
+        />;
 
     }
 
@@ -110,7 +125,7 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+            <Footer style={{ textAlign: 'center' }}>Tunji Learning  ©2022 Tutorial From AmigosCode</Footer>
         </Layout>
     </Layout>
 }
