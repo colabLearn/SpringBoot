@@ -1,5 +1,6 @@
 package com.example.demo.student;
 
+import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +11,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "api/v1/students")
+@AllArgsConstructor
 public class StudentController {
+    private final StudentService studentService;
    //Let's create some API endpoints
     //This would return a list of students
 
@@ -18,22 +21,7 @@ public class StudentController {
     @GetMapping
     public List<Student> getAllStudents() {
         //Extract with variables --- Ctrl+Alt+Shift
-        List<Student> students = Arrays.asList(
 
-                new Student(
-                        1L,
-                        "Jamila",
-                        "jamila@tunjiTrain.edu",
-                        Gender.FEMALE
-                ),
-                new Student(
-                        2L,
-                        "Alex",
-                        "alex@tunjiTrain.edu",
-                        Gender.MALE
-                )
-        );
-
-        return students;
+        return studentService.getAllStudents();
     }
 }
