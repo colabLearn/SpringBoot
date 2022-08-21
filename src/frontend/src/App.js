@@ -7,25 +7,47 @@ import './App.css';
 import {useState, useEffect} from 'react';
 import {getAllStudents} from "./client";
 import {
-    Breadcrumb, Empty,
+    Avatar,
+    Badge,
+    Breadcrumb, Button, Empty,
     Layout,
     Menu, Spin,
-    Table
+    Table, Tag
 } from 'antd';
 
 import {
-    DesktopOutlined,
+    DesktopOutlined, DownloadOutlined,
     FileOutlined,
     LoadingOutlined,
-    PieChartOutlined,
+    PieChartOutlined, PlusOutlined,
     TeamOutlined,
     UserOutlined,
 } from '@ant-design/icons';
-
+import StudentDrawerForm from "./StudentDrawerForm";
 const { Header, Content, Footer, Sider } = Layout;
 const {SubMenu} =Menu;
+const TheAvatar = ({name}) => {
+    let trim = name.trim();
+    if(trim.length===0) {
+        return <Avatar icon={<UserOutlined/>} />
+    }
+    const split = trim.split(" ");
+    if(split.length===1) {
+        return  <Avatar>{name.charAt(0)}</Avatar>
+    }
+    return <Avatar>
+        {`${name.charAt(0)}${name.charAt(name.length-1)}`}
+    </Avatar>
+}
 
 const columns = [
+    {
+        title: '',
+        dataIndex: 'avatar',
+        key: 'avatar',
+        render: (text, student) => <TheAvatar name={student.name}/>
+
+    },
     {
         title: 'Id',
         dataIndex: 'id',
@@ -53,6 +75,7 @@ function App() {
     const [students, setStudents] = useState([]);
     const [collapsed, setCollapsed] = useState(false);
     const [fetching, setFetching] = useState(true);
+    const [showDrawer, setShowDrawer] = useState(false);
 
     const fetchStudents = () =>
         getAllStudents()
@@ -76,16 +99,36 @@ function App() {
         if (students.length<=0) {
             return <Empty />;
         }
-        return <Table
+        return <>
+            <StudentDrawerForm
+                showDrawer={showDrawer}
+                setShowDrawer={setShowDrawer}
+                fetchStudents = {fetchStudents}
+
+            />
+            <Table
             dataSource={students}
             columns={columns}
             bordered
-            title={() => 'Students'}
+            title={() =>
+                <>
+
+                    <Tag>Number of students</Tag>
+                    <Badge count={students.length} className="site-badge-count-4" />
+                    <br/> <br/>
+                    <Button
+                        onClick={() => setShowDrawer(!showDrawer)}
+                        type="primary" shape="round" icon={<PlusOutlined />} size='small'>
+                        Add New Student
+                    </Button>
+
+                </>
+            }
             pagination={{ pageSize: 50 }}
             scroll={{ y: 500 }}
             rowKey = {(student) => student.id}
 
-        />;
+        />; </>
 
     }
 
