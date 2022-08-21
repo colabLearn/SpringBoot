@@ -5,14 +5,15 @@ import React from 'react'
 
 import './App.css';
 import {useState, useEffect} from 'react';
-import {getAllStudents} from "./client";
+import {deleteStudent, getAllStudents} from "./client";
 import {
     Avatar,
     Badge,
     Breadcrumb, Button, Empty,
     Layout,
     Menu, Spin,
-    Table, Tag
+    Table, Tag,
+    Radio
 } from 'antd';
 
 import {
@@ -23,7 +24,9 @@ import {
     TeamOutlined,
     UserOutlined,
 } from '@ant-design/icons';
+import { message, Popconfirm } from 'antd';
 import StudentDrawerForm from "./StudentDrawerForm";
+import {successNotification} from "./Notification";
 const { Header, Content, Footer, Sider } = Layout;
 const {SubMenu} =Menu;
 const TheAvatar = ({name}) => {
@@ -39,10 +42,17 @@ const TheAvatar = ({name}) => {
         {`${name.charAt(0)}${name.charAt(name.length-1)}`}
     </Avatar>
 }
+const removeStudent = (studentId, callback) => {
+    deleteStudent(studentId).then(() => {
+        successNotification("Student deleted",  `Student with id ${studentId} is deleted`)
+        callback();
+    })
+};
 
-const columns = [
+
+const columns = fetchStudents => [
     {
-        title: '',
+        title: 'Avatar',
         dataIndex: 'avatar',
         key: 'avatar',
         render: (text, student) => <TheAvatar name={student.name}/>
@@ -67,6 +77,22 @@ const columns = [
         title: 'Gender',
         dataIndex: 'gender',
         key: 'gender',
+    },
+    {
+        title: 'Action',
+        key: 'action',
+        render:(text, student)=>
+        <Radio.Group>
+            <Popconfirm
+                placement='topRight'
+                title= {`Are you sure to delete ${student.name}?`}
+                onConfirm={() => removeStudent(student.id, fetchStudents)}
+                okText="Yes"
+                cancelText="No" >
+                <Radio.Button value="small">Delete</Radio.Button>
+             </Popconfirm>
+            <Radio.Button value="small">Edit</Radio.Button>
+        </Radio.Group>
     },
 ];
 
@@ -108,7 +134,7 @@ function App() {
             />
             <Table
             dataSource={students}
-            columns={columns}
+            columns={columns(fetchStudents)}
             bordered
             title={() =>
                 <>
