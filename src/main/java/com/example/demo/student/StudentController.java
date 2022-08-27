@@ -15,6 +15,7 @@ public class StudentController {
 
     @GetMapping
     public List<Student> getAllStudents() {
+       // throw  new IllegalStateException("opps error");
         return studentService.getAllStudents();
     }
 

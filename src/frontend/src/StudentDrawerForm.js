@@ -28,6 +28,14 @@ function StudentDrawerForm({showDrawer, setShowDrawer, fetchStudents}) {
                 fetchStudents();
             }).catch(err => {
                 console.log(err)
+                err.response.json().then(res => {
+                    console.log(res);
+                    errorNotification(
+                        "There was an issue",
+                        `${res.message} [statusCode:${res.status}] [${res.error}]`,
+                        "bottomLeft"
+                    )
+                });
             }).finally(()=> {
                 setSubmtting(false)
         })

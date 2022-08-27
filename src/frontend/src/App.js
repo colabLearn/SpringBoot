@@ -26,7 +26,7 @@ import {
 } from '@ant-design/icons';
 import { message, Popconfirm } from 'antd';
 import StudentDrawerForm from "./StudentDrawerForm";
-import {successNotification} from "./Notification";
+import {errorNotification, successNotification} from "./Notification";
 const { Header, Content, Footer, Sider } = Layout;
 const {SubMenu} =Menu;
 const TheAvatar = ({name}) => {
@@ -44,11 +44,20 @@ const TheAvatar = ({name}) => {
 }
 const removeStudent = (studentId, callback) => {
     deleteStudent(studentId).then(() => {
-        successNotification("Student deleted",  `Student with id ${studentId} is deleted`)
-        callback();
+        deleteStudent(7889798).then(() => {
+            successNotification("Student deleted", `Student with ${studentId} was deleted`);
+            callback();
+        });
+    }).catch(err => {
+        err.response.json().then(res => {
+            console.log(res);
+            errorNotification(
+                "There was an issue",
+                `${res.message} [${res.status}] [${res.error}]`
+            )
+        });
     })
-};
-
+}
 
 const columns = fetchStudents => [
     {
@@ -110,7 +119,17 @@ function App() {
                 console.log(data);
                 setStudents(data);
                 setFetching(false);
-            })
+            }).catch(err => {
+                console.log(err.response)
+            err.response.json().then(res => {
+                console.log(res);
+                errorNotification(
+                    "There was an issue",
+                    `${res.message} [statusCode:${res.status}] [${res.error}]`
+                )
+
+            });
+    }).finally(()=> setFetching(false))
 
     useEffect(()=> {
         console.log("component is mounted");
