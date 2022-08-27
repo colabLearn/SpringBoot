@@ -13,7 +13,7 @@ import {
     Layout,
     Menu, Spin,
     Table, Tag,
-    Radio
+    Radio, Image
 } from 'antd';
 
 import {
@@ -142,7 +142,19 @@ function App() {
             return <Spin indicator={antIcon}/>
         }
         if (students.length<=0) {
-            return <Empty />;
+            return <>
+                <Button
+                    onClick={() => setShowDrawer(!showDrawer)}
+                    type="primary" shape="round" icon={<PlusOutlined/>} size="small">
+                    Add New Student
+                </Button>
+                <StudentDrawerForm
+                    showDrawer={showDrawer}
+                    setShowDrawer={setShowDrawer}
+                    fetchStudents={fetchStudents}
+                />
+                <Empty/>
+            </>
         }
         return <>
             <StudentDrawerForm
@@ -160,7 +172,6 @@ function App() {
 
                     <Tag>Number of students</Tag>
                     <Badge count={students.length} className="site-badge-count-4" />
-                    <br/> <br/>
                     <Button
                         onClick={() => setShowDrawer(!showDrawer)}
                         type="primary" shape="round" icon={<PlusOutlined />} size='small'>
@@ -168,12 +179,14 @@ function App() {
                     </Button>
 
                 </>
+
             }
             pagination={{ pageSize: 50 }}
             scroll={{ y: 500 }}
             rowKey = {(student) => student.id}
 
         />; </>
+
 
     }
 
@@ -213,7 +226,12 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Tunji Learning  ©2022 Tutorial From AmigosCode</Footer>
+            <Footer style={{ textAlign: 'center' }}>
+
+                <Image width={75}
+                       src="https://user-images.githubusercontent.com/41866995/187046653-0d025241-ec4e-430c-ba76-0c87b607593c.jpg"
+                />
+            </Footer>
         </Layout>
     </Layout>
 }
