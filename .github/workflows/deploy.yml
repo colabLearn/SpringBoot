@@ -1,8 +1,8 @@
-name: CICD
+name: CI CD
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master]
 
   workflow_dispatch:
 
