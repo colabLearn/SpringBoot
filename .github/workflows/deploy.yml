@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
 
 env:
+  CI: false
   # Postgres
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: tunji4physics
@@ -65,7 +66,9 @@ jobs:
 
       - name: Maven Clean Package and Push to Dockerhub
         run: |
+
           mvn --no-transfer-progress clean package -P build-frontend -P jib-push-to-dockerhub -Dapp.image.tag=${{steps.build-number.outputs.BUILD_NUMBER}}
+
       - uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
