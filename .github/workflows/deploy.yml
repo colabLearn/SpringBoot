@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
 
 env:
+  CI: false
   # Postgres
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: tunji4physics
