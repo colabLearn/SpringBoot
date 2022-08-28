@@ -15,7 +15,7 @@ env:
   # Java
   JAVA_VERSION: 1.15
   # DockerHub
-  DOCKER_HUB_USERNAME: tunji4physics@gmail.com
+  DOCKER_HUB_USERNAME: tunji4physics
   # AWS & Elastic Bean Stalk
   AWS_REGION: us-east-2
   EB_ENVIRONMENT_NAME: Tunji4physicsspringboottraining-env
