@@ -11,7 +11,8 @@ env:
   POSTGRESQL_DB: tunji4physics
   POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: tunji
-  JAVA_VERSION: 1.15
+  JAVA_VERSION: 1.17
+  CI: false
 
 jobs:
   build:
@@ -33,4 +34,4 @@ jobs:
           java-version: ${{ env.JAVA_VERSION }}
       - name: Maven Clean Package
         run: |
-          ./mvnw --no-transfer-progress clean package -P build-frontend
+          mvn --no-transfer-progress clean package -P build-frontend
