@@ -236,7 +236,7 @@ function App() {
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://amigoscode.com/">
-                        Click here to access Fullstack Spring Boot & React Training from Amigoscode</a>
+                        Link to Amigoscode</a>
                 </Divider>
             </Footer>
         </Layout>
