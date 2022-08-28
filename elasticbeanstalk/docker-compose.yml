@@ -1,7 +1,8 @@
 version: "3.8"
 services:
   backend:
-    image: "tunji4physics/springboot-react-fullstack:28.8.2022.21.37.29"
+
+    image: "tunji4physics/springboot-react-fullstack:28.8.2022.22.48.4"
     ports:
       - "80:8080"
     restart: "always"
