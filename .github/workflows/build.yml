@@ -11,7 +11,7 @@ env:
   POSTGRESQL_DB: tunji4physics
   POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: tunji
-  JAVA_VERSION: 1.15
+  JAVA_VERSION: 1.17
   CI: false
 
 jobs:
