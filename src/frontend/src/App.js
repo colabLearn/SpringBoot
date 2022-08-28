@@ -13,7 +13,7 @@ import {
     Layout,
     Menu, Spin,
     Table, Tag,
-    Radio, Image
+    Radio, Image, Divider
 } from 'antd';
 
 import {
@@ -231,6 +231,12 @@ function App() {
                 <Image width={75}
                        src="https://user-images.githubusercontent.com/41866995/187046653-0d025241-ec4e-430c-ba76-0c87b607593c.jpg"
                 />
+                <Divider>
+                    <a
+                        target="_blank"
+                        href="https://amigoscode.com/">
+                        Click here to access Fullstack Spring Boot & React Training from Amigoscode</a>
+                </Divider>
             </Footer>
         </Layout>
     </Layout>
