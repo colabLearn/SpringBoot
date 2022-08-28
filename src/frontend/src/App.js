@@ -236,7 +236,7 @@ function App() {
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://amigoscode.com/">
-                        Click to connect to  Amigoscode--Trying the code</a>
+                        Click to connect to  Amigoscode</a>
                 </Divider>
             </Footer>
         </Layout>
