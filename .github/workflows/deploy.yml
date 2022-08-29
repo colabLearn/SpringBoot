@@ -1,7 +1,7 @@
 name: CI CD
 
 on:
-  push:
+  push_request:
 
     branches: [ master]
 
@@ -11,13 +11,13 @@ on:
   workflow_dispatch:
 
 env:
-  CI: false
+
   # Postgres
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: tunji4physics
   POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: tunji
-  CI: false
+  CI CD: false
   # Java
   JAVA_VERSION: 1.17
   # DockerHub
