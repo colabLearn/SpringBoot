@@ -237,7 +237,7 @@ function App() {
                         target="_blank"
                         href="https://amigoscode.com/">
 
-                        Click to connect to  Amigoscode--Trying the code</a>
+                        Click to  Amigoscode</a>
 
                 </Divider>
             </Footer>
