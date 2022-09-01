@@ -1,7 +1,7 @@
 name: CI CD
 
 on:
-  push:
+  push_request:
 
     branches: [ master]
 
@@ -11,13 +11,13 @@ on:
   workflow_dispatch:
 
 env:
-  CI: false
+
   # Postgres
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: tunji4physics
   POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: tunji
-  CI: false
+  CI CD: false
   # Java
   JAVA_VERSION: 1.17
   # DockerHub
@@ -77,7 +77,7 @@ jobs:
         with:
           status: ${{ job.status }}
           fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
-          text: ':white_check_mark: pushed tunji4physics/springboot-react-fullstack:${{steps.build-number.outputs.BUILD_NUMBER}} to docker hub... https://hub.docker.com/repository/docker/amigoscode/springboot-react-fullstack'
+          text: ':white_check_mark: pushed tunji4physics/springboot-react-fullstack:${{steps.build-number.outputs.BUILD_NUMBER}} to docker hub... https://hub.docker.com/repository/docker/tunji4physics/springboot-react-fullstack'
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       - name: Update and commit app version in docker-compose.yaml
