@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01b33338-47b9-4a1f-addb-7bff21d6dd3c" name="Changes" comment="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add_footer11" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/demo/student/Gender.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/demo/student/Student.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2CfVP7A7LFPcGVFRkUQ9f2WocAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tunji/IdeaProjects/demo/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo.student" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tunji\IdeaProjects\demo\src\main\resources" />
+      <recent name="C:\Users\tunji\IdeaProjects\demo\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.itShouldAddNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="itShouldAddNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.itShouldAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="itShouldAddTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="demo" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoApplicationTests.itShouldAddTwoNumbers" />
+        <item itemvalue="JUnit.DemoApplicationTests.itShouldAddNumbers" />
+        <item itemvalue="JUnit.DemoApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01b33338-47b9-4a1f-addb-7bff21d6dd3c" name="Changes" comment="" />
+      <created>1659193605421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659193605421</updated>
+      <workItem from="1659193606983" duration="316000" />
+      <workItem from="1659193986764" duration="204000" />
+      <workItem from="1659194767038" duration="855000" />
+      <workItem from="1659195670016" duration="288000" />
+      <workItem from="1659196399420" duration="8369000" />
+      <workItem from="1659205542759" duration="1162000" />
+      <workItem from="1659206735572" duration="702000" />
+      <workItem from="1659207461512" duration="489000" />
+      <workItem from="1659207975670" duration="25723000" />
+      <workItem from="1659482323717" duration="989000" />
+      <workItem from="1659483354559" duration="3226000" />
+      <workItem from="1659792505798" duration="6958000" />
+      <workItem from="1659811692677" duration="592000" />
+      <workItem from="1659812568012" duration="884000" />
+      <workItem from="1659813585994" duration="1260000" />
+      <workItem from="1659815912373" duration="12005000" />
+      <workItem from="1659962465572" duration="1587000" />
+      <workItem from="1659964157174" duration="1973000" />
+      <workItem from="1659989799192" duration="8637000" />
+      <workItem from="1660265650419" duration="2047000" />
+      <workItem from="1660338711826" duration="1186000" />
+      <workItem from="1660428343014" duration="2553000" />
+      <workItem from="1660431038107" duration="10614000" />
+      <workItem from="1660510722555" duration="2549000" />
+      <workItem from="1660516616359" duration="1217000" />
+      <workItem from="1661005399493" duration="18204000" />
+      <workItem from="1661048182550" duration="161000" />
+      <workItem from="1661098922611" duration="20745000" />
+      <workItem from="1661610817038" duration="17214000" />
+      <workItem from="1661708169493" duration="1376000" />
+      <workItem from="1661709572341" duration="2463000" />
+      <workItem from="1661712086434" duration="8810000" />
+      <workItem from="1661723492239" duration="242000" />
+      <workItem from="1661723763434" duration="6566000" />
+      <workItem from="1661732024815" duration="2470000" />
+      <workItem from="1662045455196" duration="2967000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1659219095731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659219095731</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1659219826388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659219826388</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1659220174405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659220174405</updated>
+    </task>
+    <task id="LOCAL-00004" summary="make test fail">
+      <created>1661640037403</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661640037403</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make test fail">
+      <created>1661640728681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661640728681</updated>
+    </task>
+    <task id="LOCAL-00006" summary="make test pass">
+      <created>1661640883749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661640883749</updated>
+    </task>
+    <task id="LOCAL-00007" summary="make test pass">
+      <created>1661641257668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661641257668</updated>
+    </task>
+    <task id="LOCAL-00008" summary="solving docker login">
+      <created>1661715158400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661715158400</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <created>1661715176609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661715176609</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <created>1661715202252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661715202252</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <created>1661716308802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661716308802</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <created>1661716344898</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661716344898</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <created>1661730452057</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661730452057</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'main/add_footer' into add_footer">
+      <created>1661730473414</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661730473414</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;adding antd and buttons&quot;" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="make test fail" />
+    <MESSAGE value="make test pass" />
+    <MESSAGE value="&quot;ammendments&quot;" />
+    <MESSAGE value="solving docker login" />
+    <MESSAGE value="Merge remote-tracking branch 'main/add_footer' into add_footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'main/add_footer' into add_footer" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

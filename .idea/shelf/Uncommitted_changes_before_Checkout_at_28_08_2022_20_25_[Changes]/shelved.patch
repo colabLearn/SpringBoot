@@ -1,0 +1,23 @@
+Index: .github/workflows/deploy.yml
+===================================================================
+diff --git a/.github/workflows/deploy.yml b/.github/workflows/deploy.yml
+--- a/.github/workflows/deploy.yml	
++++ b/.github/workflows/deploy.yml	
+@@ -1,7 +1,7 @@
+ name: CI CD
+ 
+ on:
+-  push:
++  push_request:
+     branches: [ master]
+ 
+   workflow_dispatch:
+@@ -12,7 +12,7 @@
+   POSTGRESQL_DB: tunji4physics
+   POSTGRESQL_USER: postgres
+   POSTGRESQL_PASSWORD: tunji
+-  CI: false
++  CI CD: false
+   # Java
+   JAVA_VERSION: 1.17
+   # DockerHub
