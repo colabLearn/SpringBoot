@@ -18,7 +18,7 @@ public class StudentService {
 
     public void addStudent(Student student) {
         //To do later: check if email is taken
-        Boolean existsEmail = studentRepository
+        boolean existsEmail = studentRepository
                 .selectExistsEmail(student.getEmail());
         if(existsEmail) {
             throw new BadRequestException(
@@ -33,7 +33,7 @@ public class StudentService {
         //check if student exists
         if(!studentRepository.existsById(studentId)) {
             throw new StudentNotFoundException(
-                    "Student with iid " + studentId + " does not exists");
+                    "Student with id " + studentId + " does not exists");
         }
         studentRepository.deleteById(studentId);
     }

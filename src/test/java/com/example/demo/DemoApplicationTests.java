@@ -7,25 +7,27 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 
 class DemoApplicationTests {
-
     Calculator underTest = new Calculator();
 
     @Test
-    void itShouldAddTwoNumbers() {
+    void itshouldAddTwoNumbers() {
         //given
-        int numberOne = 15;
-        int numberTwo = 35;
+        int num1 = 15;
+        int num2 = 35;
 
-        // when
-        int result = underTest.add(numberOne, numberTwo);
+        //when
+
+        int result = underTest.add(num1, num2);
 
         //then
-        assertThat(result).isEqualTo(50);
+        int expected = 50;
+        assertThat(result).isEqualTo(expected);
+
     }
 
-    class Calculator {
+    class Calculator{
         int add(int a, int b) {
-            return a + b;
+            return a+b;
         }
     }
 
