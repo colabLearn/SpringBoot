@@ -4,20 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b33338-47b9-4a1f-addb-7bff21d6dd3c" name="Changes" comment="Merge remote-tracking branch 'main/add_footer' into add_footer">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="01b33338-47b9-4a1f-addb-7bff21d6dd3c" name="Changes" comment="Testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/precache-manifest.d3ce70389c70b1b125ceb8a992ea1dbd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/2.98a28f92.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/2.98a28f92.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/main.b43e37f4.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/main.b43e37f4.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/1.2a53914d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/1.2a53914d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/2.1630a4c8.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/2.1630a4c8.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/main.58462c3d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/main.58462c3d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/runtime~main.f2913743.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/runtime~main.f2913743.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/jib-classpath-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/jib-main-class-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/1db0a54bd043717ae2ae3bb65f5bf4752893c97000121ae7e8be665315fab9c9/481d2184ad6a2248204bfa7f6d6396b6b0b235be4bca5e6d1c2aace3763d021a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/91eb39aec26f92dedd458b792837171f2d33f29ff5f2c0f6c9f03499475e9803/9ffda22e09d6962af4ecbcba351b5045f122c1b77bbefd69cbf16b51a96d5586" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/927d0c9beaab616cec02bc7e5ef2afefe51e3d53108976f0ec6fa809748aae6b/34404fc52fe41e05d2c4571dd76eb41edbf6566e7641a24d986d769fd230082b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/a1867ad668fe1b8aa7b969b7438513e25f70959ea70058eb017834427418b736/45827be0dd3c790458113d5dd6e20f9e6fba65ef3dbcc047024f0c05352dee2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/6911bc8047fe210031d9de9f79e17557b5c34086ed6b49071e0ec3392c3d9516" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/8f3b2fc47fce04eaf16646e1cad03defbb29d4a699d03b0958dd5e71d5bf50ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/b8ec85533e7d8ea8cebf73ab6fddba73ee51b027aa75465511297b96c76e8679" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/e9f888b04f428673ca1b6a485bdc6de1a4251f4bfe7af3a5e59cf9c85265ea0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-image.digest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-image.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +68,8 @@
         <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,6 +115,11 @@
         <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="build-frontend" />
+      </list>
     </option>
   </component>
   <component name="ProblemsViewState">
@@ -131,49 +172,65 @@
       <recent name="com.example.demo.student" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentServiceTest.deleteStudent">
-    <configuration name="StudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentIT">
+    <configuration name="StudentIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.student.*" />
+          <option name="PATTERN" value="com.example.demo.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.student" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.student.StudentServiceTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.integration.StudentIT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentServiceTest.canAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentIT.canDeleteStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.student.*" />
+          <option name="PATTERN" value="com.example.demo.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.student" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.student.StudentServiceTest" />
-      <option name="METHOD_NAME" value="canAddStudent" />
+      <option name="PACKAGE_NAME" value="com.example.demo.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.integration.StudentIT" />
+      <option name="METHOD_NAME" value="canDeleteStudents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentServiceTest.canGetAllStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentIT.canRegisterNewStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.student.*" />
+          <option name="PATTERN" value="com.example.demo.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.student" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.student.StudentServiceTest" />
-      <option name="METHOD_NAME" value="canGetAllStudents" />
+      <option name="PACKAGE_NAME" value="com.example.demo.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.integration.StudentIT" />
+      <option name="METHOD_NAME" value="canRegisterNewStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentIT.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.integration.StudentIT" />
+      <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,22 +252,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentServiceTest.willThrowWhenEmailsTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.student.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.student" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.student.StudentServiceTest" />
-      <option name="METHOD_NAME" value="willThrowWhenEmailsTaken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="demo" />
@@ -224,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentIT" />
+        <item itemvalue="JUnit.StudentIT.canDeleteStudents" />
+        <item itemvalue="JUnit.StudentIT.canRegisterNewStudents" />
+        <item itemvalue="JUnit.StudentIT.name" />
         <item itemvalue="JUnit.StudentServiceTest.deleteStudent" />
-        <item itemvalue="JUnit.StudentServiceTest" />
-        <item itemvalue="JUnit.StudentServiceTest.willThrowWhenEmailsTaken" />
-        <item itemvalue="JUnit.StudentServiceTest.canAddStudent" />
-        <item itemvalue="JUnit.StudentServiceTest.canGetAllStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +320,8 @@
       <workItem from="1662061598733" duration="636000" />
       <workItem from="1662062283693" duration="43000" />
       <workItem from="1662062345146" duration="4143000" />
-      <workItem from="1662127515476" duration="18859000" />
+      <workItem from="1662127515476" duration="27799000" />
+      <workItem from="1662230090240" duration="11084000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1659219095731</created>
@@ -386,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662061715433</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Testing">
+      <created>1662217652303</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662217652304</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +460,8 @@
     <MESSAGE value="&quot;ammendments&quot;" />
     <MESSAGE value="solving docker login" />
     <MESSAGE value="Merge remote-tracking branch 'main/add_footer' into add_footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'main/add_footer' into add_footer" />
+    <MESSAGE value="Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
